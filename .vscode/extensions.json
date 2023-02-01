@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "Vue.vscode-typescript-vue-plugin",
+    "Vue.volar",
+    "streetsidesoftware.code-spell-checker",
+    "antfu.goto-alias",
+    "antfu.unocss",
+    "antfu.iconify"
+  ]
+}

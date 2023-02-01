@@ -1,0 +1,7 @@
+@function darken-custom($variable, $opacity) {
+  @return unquote('linear-gradient(to top,rgba(0, 0, 0,' + $opacity + '),rgba(0, 0, 0,' + $opacity + '))' + $variable);
+}
+
+@function lighten-custom($variable, $opacity) {
+  @return unquote('linear-gradient(to top,rgba(255, 255, 255,' + $opacity + '),rgba(255, 255, 255,' + $opacity + ')) ' + $variable);
+}

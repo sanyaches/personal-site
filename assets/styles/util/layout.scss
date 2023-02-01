@@ -1,0 +1,63 @@
+.container-m {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-margin-m {
+  margin: 2.5rem 0;
+
+  @include media-breakpoint-up(xl) {
+    margin: 3.75rem 0;
+  }
+}
+
+.section-margin-l {
+  margin: 3.75rem 0;
+
+  @include media-breakpoint-up(md) {
+    margin: 5rem 0;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin: 7.5rem 0;
+  }
+}
+
+.section-margin-xl {
+  margin: 3.75rem 0;
+
+  @include media-breakpoint-up(md) {
+    margin: 5rem 0;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin: 10rem 0;
+  }
+}
+
+.single-page-container {
+  width: 100%;
+  padding: 0 2.4rem;
+  margin: 0 auto;
+
+  @include media-breakpoint-up(md) { 
+    width: 88vw;
+    max-width: 1392px;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+
+.initial-page-padding {
+  padding-top: 8rem;
+  padding-bottom: 1rem;
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: 4rem;
+  }
+
+  @include media-breakpoint-up(lg) { 
+    padding-bottom: 8rem;
+  }
+}

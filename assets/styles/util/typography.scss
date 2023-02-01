@@ -1,0 +1,120 @@
+.lh-condensed {
+  line-height: 1.25;
+}
+
+.f5 {
+  font-size: 0.875rem;
+}
+
+.f6 {
+  font-size: 0.75rem;
+}
+
+.title-size-xs {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  font-variation-settings: "wght" 666;
+  letter-spacing: -0.0168em;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @include media-breakpoint-down(md) {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    font-variation-settings: "wght" 666;
+    letter-spacing: -0.0168em;
+  }
+}
+
+.title-size-s {
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.125rem;
+  font-variation-settings: "wght" 667;
+  letter-spacing: -0.0208em;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @include media-breakpoint-down(md) {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    font-variation-settings: "wght" 666;
+    letter-spacing: -0.0168em;
+  }
+}
+
+.title-size-m {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-variation-settings: "wght" 669;
+  letter-spacing: -0.0236em;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @include media-breakpoint-down(md) {
+    font-size: 1.875rem;
+    line-height: 2.125rem;
+    font-variation-settings: "wght" 667;
+    letter-spacing: -0.0208em;
+  }
+}
+
+.title-size-l {
+  font-weight: 600;
+  font-size: 2.8125rem;
+  line-height: 3.0625rem;
+  font-variation-settings: "wght" 628;
+  letter-spacing: -0.0272em;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @include media-breakpoint-down(md) {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-variation-settings: "wght" 620;
+    letter-spacing: -0.0224em;
+  }
+}
+
+.title-size-xl {
+  font-weight: 700;
+  font-size: 3.3125rem;
+  line-height: 3.625rem;
+  font-variation-settings: "wght" 669;
+  letter-spacing: -0.0307em;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @include media-breakpoint-down(md) {
+    font-size: 2.8125rem;
+    line-height: 3.0625rem;
+    font-variation-settings: "wght" 669;
+    letter-spacing: -0.0269em;
+  }
+}
+
+.subtitle-size {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-weight: 430;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  letter-spacing: -0.00025em;
+  color: var(--text-color-medium);
+
+  @include media-breakpoint-up(sm) {
+    font-size: 1.1875rem;
+  }
+}
+
+.smallcaps-title {
+  display: block;
+  color: var(--text-color-medium);
+  text-transform: uppercase;
+  font-size: 0.6875rem;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  font-weight: 544;
+}

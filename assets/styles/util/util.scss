@@ -1,0 +1,17 @@
+.only-desktop {
+  display: none;
+
+  @include media-breakpoint-up(lg) {
+    display: block;
+    width: 100%;
+  }
+}
+
+.only-mobile {
+  display: block;
+  width: 100%;
+  
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}

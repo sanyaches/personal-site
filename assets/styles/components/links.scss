@@ -1,0 +1,33 @@
+.link {
+  color: var(--color-fg-muted);
+
+  &:hover {
+    color: var(--color-accent-fg);
+    text-decoration: underline;
+  }
+}
+
+.inline-link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+  text-decoration-thickness: 1px;
+  cursor: pointer;
+  display: inline;
+
+  &:hover {
+    color: #EB5757;
+    opacity: 1;
+    text-decoration: none;
+  }
+
+  &.has-arrow-right::after {
+    content: " →";
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 0.3rem;
+    line-height: 1;
+    font-size: 1.2em;
+    vertical-align: text-top;
+  }
+}

@@ -1,0 +1,63 @@
+html {
+  cursor: auto;
+  line-height: 1.5;
+  font-family: var(--font-family);
+  color-scheme: dark;
+  
+  &:not(.is-keyboard-navigation) :focus {
+    outline: none;
+  }
+}
+
+:focus {
+  outline-offset: 1px;
+}
+
+body {
+  font-size: var(--base-font-size);
+  background-color: var(--body-bg);
+  color: var(--base-color);
+  margin: 0;
+  transition: background-color, color;
+}
+
+body:has(.header.menu-open) {
+  height: 100%;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+input,
+textarea {
+  font-size: 1em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+dd {
+  margin-left: 0;
+}
