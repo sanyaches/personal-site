@@ -19,7 +19,7 @@
             aria-label="Homepage"
           >
             <span>
-              My logo1
+              <LogoIcon />
             </span>
           </nuxt-link>
           <div class="header-nav__mobile-item header-burger-wrapper">
@@ -52,12 +52,28 @@
                   Blog
                 </nuxt-link>
               </li>
-              <li>
+              <li class="mr-2">
                 <nuxt-link
                   to="/projects"
                   class="nav-link nav-link-button"
                 >
                   Projects
+                </nuxt-link>
+              </li>
+              <li class="mr-2">
+                <nuxt-link
+                  to="/about"
+                  class="nav-link nav-link-button"
+                >
+                  About
+                </nuxt-link>
+              </li>
+              <li>
+                <nuxt-link
+                  to="/contacts"
+                  class="nav-link nav-link-button"
+                >
+                  Contacts
                 </nuxt-link>
               </li>
             </ul>
@@ -69,6 +85,7 @@
 </template>
 
 <script setup lang="ts">
+import LogoIcon from '@/assets/icons/logo.svg?component'
 const menuOpen = ref(false)
 </script>
 

@@ -4,7 +4,7 @@ description: "Collaborative platform for creating 3D real-life simulations and r
 companySize: 10
 authorName: "Rostyslav Lyulinetskyy"
 authorDepartment: "CTO"
-authorQuote: "I'm excited about Aleksandr Savkin"
+authorQuote: "Aleksandr Savkin is a very talented engineer, I was pleasant to work together"
 thumbnailUrl: "/projects/automotive.png"
 ogTitle: 'Building a simulation platform for engineers'
 ogDescription: '123123'

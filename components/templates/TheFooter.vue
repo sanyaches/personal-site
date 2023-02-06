@@ -3,7 +3,9 @@
     <div class="footer-lists single-page-container">
       <div class="flex flex-wrap py-2rem mb-2rem">
         <div class="w-12/12 lg:w-4/12 mb-2rem">
-          My logo
+          <NuxtLink to="/">
+            <LogoIcon />
+          </NuxtLink>
         </div>
 
         <div class="w-6/12 sm:w-3/12 lg:w-2/12 mb-2rem md:mb-0.5rem pr-1rem lg:pr-0 lg:pl-2.4rem">
@@ -63,14 +65,7 @@
 
     <div class="footer-copyright">
       <div class="single-page-container py-2.4rem sm:flex justify-between flex-row-reverse items-center">
-        <ul class="list-none flex items-center mb-1rem sm:mb-0 lh-condensed-ultra">
-          <li class="mr-1rem">
-            <a href="" class="color-fg-subtle">
-              Me on LinkedIn
-              <span class="sr-only"></span>
-            </a>
-          </li>
-        </ul>
+        <BlocksSocials />
 
         <ul class="list-none flex flex-wrap color-fg-muted">
           <li class="mr-1rem">
@@ -82,8 +77,8 @@
   </footer>
 </template>
 
-<script lang="ts">
-//
+<script lang="ts" setup>
+import LogoIcon from '@/assets/icons/logo.svg?component'
 </script>
 
 <style lang="scss" scoped>
