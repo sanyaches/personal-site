@@ -6,20 +6,20 @@
   >
     <div class="Header-backdrop">
       <div class="HeaderMenu">
-        <div class="HeaderMenu__wrapper">
+        <div class="HeaderMenu__wrapper single-page-container">
           <ul class="list-none">
+            <li class="lh-condensed mb-1rem">
+              <NuxtLink class="link" to="/projects">Projects</NuxtLink>
+            </li>
             <li class="lh-condensed mb-1rem">
               <NuxtLink class="link" to="/about">About me</NuxtLink>
             </li>   
             <li class="lh-condensed mb-1rem">
-              <NuxtLink class="link" to="/contacts">Contacts</NuxtLink>
-            </li> 
-            <li class="lh-condensed mb-1rem">
               <NuxtLink class="link" to="/blog">Blog</NuxtLink>
             </li>
             <li class="lh-condensed mb-1rem">
-              <NuxtLink class="link" to="/projects">Projects</NuxtLink>
-            </li>
+              <NuxtLink class="link" to="/contacts">Contacts</NuxtLink>
+            </li> 
           </ul>
         </div>
       </div>
@@ -345,8 +345,6 @@ watch(route, closeMenu)
   width: 100%;
   pointer-events: none;
   visibility: visible;
-  padding-left: 1rem;
-  padding-right: 1rem;
   padding-top: 4.5rem;
   padding-bottom: 2.4rem;
   top: 0;

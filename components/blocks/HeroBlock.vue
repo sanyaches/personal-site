@@ -24,6 +24,14 @@
           <p>
             4 years of experience
           </p>
+          <p class="mt-2rem md:mt-3rem">
+            <b>Navigation:</b>
+          </p>
+          <nav class="hero__links mb-2rem">
+            <NuxtLink class="button-link button-link-forward button-link--deg-45" to="/projects">Projects</NuxtLink>
+            <NuxtLink class="button-link button-link-forward button-link--deg-45" to="/about">About</NuxtLink>
+            <NuxtLink class="button-link button-link-forward button-link--deg-45" to="/blog">Blog</NuxtLink>
+          </nav>
         </div>
       </div>
     </div>
@@ -69,6 +77,16 @@
 
   &__info {
     font-size: 1.2rem;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    @include media-breakpoint-up(sm) {
+      flex-direction: row;
+    }
   }
 }
 </style>

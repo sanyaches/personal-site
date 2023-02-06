@@ -39,3 +39,10 @@
     margin-left: 0.25em;
   }
 }
+
+.button-link.button-link-forward.button-link--deg-45 {
+  &::after {
+    transform: rotate(-40deg);
+    margin-left: 0.8rem;
+  }
+}
