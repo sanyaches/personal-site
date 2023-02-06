@@ -18,4 +18,8 @@ const { data: articles } = await useAsyncData(async () => {
     .sort({ publishedAt: -1 })
     .find()
 });
+
+definePageMeta({
+  colorMode: 'light',
+})
 </script>

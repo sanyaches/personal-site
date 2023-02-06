@@ -32,6 +32,10 @@ const { data: projects } = await useAsyncData(async () => {
     .sort({ companySize: -1 })
     .find()
 });
+
+definePageMeta({
+  colorMode: 'light',
+})
 </script>
 
 <style lang="scss" scoped>

@@ -54,6 +54,10 @@ const paginate = (page) => {
   goPage(page)
   updateArticles()
 }
+
+definePageMeta({
+  colorMode: 'light',
+})
 </script>
 
 <style lang="scss" scoped>

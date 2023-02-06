@@ -82,6 +82,10 @@
 import { useSeoMeta } from '@unhead/vue';
 import AvatarPerson from '@/assets/icons/avatar-person.svg?component'
 
+definePageMeta({
+  colorMode: 'light',
+})
+
 const route = useRoute()
 const { data: project } = await useAsyncData(`content-${route.params.slug.join('')}`, async () => {
   const post = queryContent('projects', ...route.params.slug).findOne();

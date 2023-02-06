@@ -104,7 +104,7 @@
         <div class="container-m">
           <hr>
           <div class="section-margin-m">
-            <ContactMeLead />
+            <BlocksContactMeLead />
           </div>
         </div>
       </section>
@@ -113,8 +113,9 @@
 </template>
 
 <script setup>
-import ContactMeLead from '~~/components/blocks/ContactMeLead.vue';
-
+definePageMeta({
+  colorMode: 'light',
+})
 </script>
 
 <style lang="scss" scoped>

@@ -20,8 +20,8 @@ export default defineNuxtConfig({
   ],
 
   colorMode: {
-    preference: 'system',
-    fallback: 'dark',
+    preference: 'light',
+    fallback: 'light',
   },
 
   // @nuxt/content options

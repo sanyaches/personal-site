@@ -11,6 +11,9 @@ useHead({
 useSeoMeta({
   description: 'Fullstack/frontend javascript developer with 4 years of experience, skilled in Vue.js, React.js, Node.js. Aleksandr Savkin`s personal site.'
 })
+definePageMeta({
+  colorMode: 'light',
+})
 </script>
 
 <style lang="scss">

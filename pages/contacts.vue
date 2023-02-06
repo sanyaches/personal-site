@@ -12,10 +12,16 @@
   </div>
 </template>
 
+<script setup lang="ts">
+definePageMeta({
+  colorMode: 'light',
+})
+</script>
+
 <style lang="scss" scoped>
 .contacts {
   padding-bottom: 8rem;
-  
+
   &__content {
     padding-left: 1rem;
     padding-right: 1rem;

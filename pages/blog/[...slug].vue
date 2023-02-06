@@ -114,6 +114,10 @@ import TwitterIcon from '@/assets/icons/social-twitter.svg?component'
 import FacebookIcon from '@/assets/icons/social-facebook.svg?component'
 import LinkedinIcon from '@/assets/icons/social-linkedin.svg?component'
 
+definePageMeta({
+  colorMode: 'light',
+})
+
 const route = useRoute()
 const { data: article } = await useAsyncData(`content-articles-${route.params.slug.join('')}`, async () => {
   return queryContent('blog', ...route.params.slug).findOne();
