@@ -13,4 +13,4 @@ keywords: 'simulations 3d frontend development software'
 
 ## Frontend development at dicehub
 
-My great experience text and images
+My great experience - description text and images

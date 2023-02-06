@@ -4,7 +4,7 @@
       <aside class="blog-page__aside">
         <div class="blog-page__aside-content">
           <div class="blog-page__aside-content-inner">
-            <h1>Alex's blog</h1>
+            <h1>Aleksandr's blog</h1>
             <p>
               My personal thoughts and achievements
             </p>
@@ -36,7 +36,7 @@
 }
 
 .blog-page {
-  padding-top: 8rem;
+  padding-top: 6rem;
   padding-bottom: 1rem;
 
   @include media-breakpoint-up(md) { 
@@ -52,7 +52,7 @@
 
     @include media-breakpoint-up(lg) { 
       display: grid;
-      grid-template-columns: 235px auto;
+      grid-template-columns: 315px auto;
       grid-gap: 3.75rem;
     }
   }
