@@ -123,6 +123,8 @@ const menuOpen = ref(false)
 }
 
 .header-wrapper {
+  padding: 0 1rem;
+
   .header-container {
     position: relative;
     padding: var(--header-padding);
