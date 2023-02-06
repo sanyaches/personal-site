@@ -19,7 +19,7 @@ defineProps({
     default: ''
   }
 })
-const fallbackTitle = 'Do you have an opportunity for me?'
+const fallbackTitle = 'Do you have an offer for me?'
 const fallbackDescription = "I would be delightful to talk"
 </script>
 

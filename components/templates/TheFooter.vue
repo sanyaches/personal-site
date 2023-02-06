@@ -32,8 +32,7 @@
           <ul class="list-none f5">
             <li class="lh-condensed mb-1rem">
               <NuxtLink class="link" to="/blog">Blog</NuxtLink>
-            </li>
-            
+            </li>   
           </ul>
         </div>
 

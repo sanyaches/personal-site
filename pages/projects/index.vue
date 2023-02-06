@@ -8,9 +8,9 @@
         </div>
       </div>
       <div class="projects__hero-image-wrap">
-        <div class="projects__hero-image">
+        <!-- <div class="projects__hero-image">
           <img src="@/assets/images/programming.png">
-        </div>
+        </div> -->
       </div>
     </section>
 

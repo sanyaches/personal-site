@@ -10,11 +10,16 @@
           <p>
             Hey, I'm Aleksandr. I’m a frontend/fullstack javascript developer
           </p>
+          <p>
+            I'm passionate about web development with care about customers (UX/UI). 
+            <br>Also I'm a fan of clean code
+          </p>
+          <p>Feel free to reach me by links below:</p>
           <div class="mb-4">
             <BlocksSocials />
           </div>
           <p>
-            Scilled in JavaScript, Vue.js, React.js and Node.js
+            Scilled in JavaScript, Typescript, HTML, CSS, Vue.js, React.js and Node.js
           </p>
           <p>
             4 years of experience
@@ -60,6 +65,10 @@
       width: 100%;
       height: auto;
     }
+  }
+
+  &__info {
+    font-size: 1.2rem;
   }
 }
 </style>

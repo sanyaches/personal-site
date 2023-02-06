@@ -6,7 +6,22 @@
   >
     <div class="Header-backdrop">
       <div class="HeaderMenu">
-        Header menu
+        <div class="HeaderMenu__wrapper">
+          <ul class="list-none">
+            <li class="lh-condensed mb-1rem">
+              <NuxtLink class="link" to="/about">About me</NuxtLink>
+            </li>   
+            <li class="lh-condensed mb-1rem">
+              <NuxtLink class="link" to="/contacts">Contacts</NuxtLink>
+            </li> 
+            <li class="lh-condensed mb-1rem">
+              <NuxtLink class="link" to="/blog">Blog</NuxtLink>
+            </li>
+            <li class="lh-condensed mb-1rem">
+              <NuxtLink class="link" to="/projects">Projects</NuxtLink>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -46,14 +61,6 @@
             <ul class="nav-list">
               <li class="mr-2">
                 <nuxt-link
-                  to="/blog"
-                  class="nav-link nav-link-button"
-                >
-                  Blog
-                </nuxt-link>
-              </li>
-              <li class="mr-2">
-                <nuxt-link
                   to="/projects"
                   class="nav-link nav-link-button"
                 >
@@ -66,6 +73,14 @@
                   class="nav-link nav-link-button"
                 >
                   About
+                </nuxt-link>
+              </li>
+              <li class="mr-2">
+                <nuxt-link
+                  to="/blog"
+                  class="nav-link nav-link-button"
+                >
+                  Blog
                 </nuxt-link>
               </li>
               <li>
@@ -87,6 +102,11 @@
 <script setup lang="ts">
 import LogoIcon from '@/assets/icons/logo.svg?component'
 const menuOpen = ref(false)
+const route = useRoute()
+const closeMenu = () => {
+  menuOpen.value = false;
+}
+watch(route, closeMenu)
 </script>
 
 <style lang="scss" scoped>
@@ -262,7 +282,7 @@ const menuOpen = ref(false)
 }
 
 .HeaderMenu-toggle-bar:nth-of-type(3) {
-    transform-origin: top right;
+  transform-origin: top right;
 }
 
 .HeaderMenu-toggle-bar {
@@ -327,17 +347,14 @@ const menuOpen = ref(false)
   visibility: visible;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 2.5rem;
+  padding-top: 4.5rem;
   padding-bottom: 2.4rem;
   top: 0;
   height: 100%;
+  display: flex;
   flex-direction: column;
   flex: 1 1 auto;
-
-  @include media-breakpoint-up(sm) {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
+  font-size: 1.5rem;
 
   @include media-breakpoint-up(lg) {
     width: auto;
@@ -345,7 +362,6 @@ const menuOpen = ref(false)
     transition: none;
     visibility: hidden;
     position: relative;
-    display: flex;
   }
 
   @include media-breakpoint-down(lg) {
@@ -362,5 +378,14 @@ const menuOpen = ref(false)
     opacity: 0;
     transform: scale(0.9) translateY(-24px);
   }
+}
+
+.HeaderMenu__wrapper {
+  pointer-events: auto;
+}
+
+.HeaderMenu a.router-link-active {
+  padding-left: 0.5rem;
+  text-decoration: underline;
 }
 </style>
