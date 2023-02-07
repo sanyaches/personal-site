@@ -54,7 +54,7 @@
 
       <section class="project__section section-margin-m">
         <div class="container-m">
-          <div class="project__content">
+          <div class="project__content markdown-body">
             <ContentDoc />
           </div>
         </div>
@@ -64,7 +64,7 @@
     <section v-if="surroundProject.length > 0" class="project__section section-margin-l">
       <div class="project__keep">
         <div class="project__keep-header">
-          <h2>Other excited projects which I was working on</h2>
+          <h2>Other excited projects</h2>
         </div>
         <div class="project__keep-articles section-margin-m">
           <BlocksPostsGrid>
@@ -81,6 +81,7 @@
 <script setup>
 import { useSeoMeta } from '@unhead/vue';
 import AvatarPerson from '@/assets/icons/avatar-person.svg?component'
+import 'github-markdown-css/github-markdown.css'
 
 definePageMeta({
   colorMode: 'light',

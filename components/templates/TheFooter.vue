@@ -19,6 +19,10 @@
             </li>
 
             <li class="lh-condensed mb-1rem">
+              <NuxtLink class="link" to="/projects/vikosto">Education platform</NuxtLink>
+            </li>
+
+            <li class="lh-condensed mb-1rem">
               <NuxtLink class="link" to="/projects">All projects</NuxtLink>
             </li>
           </ul>

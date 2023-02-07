@@ -24,6 +24,7 @@
     "bootstrap": "5.2.3",
     "click-outside-vue3": "4.0.1",
     "date-fns": "2.29.3",
+    "github-markdown-css": "^5.1.0",
     "vue-social-sharing": "^4.0.0-alpha4"
   }
 }
