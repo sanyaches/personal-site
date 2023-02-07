@@ -7,6 +7,6 @@ echo "=> Optimize PNG images with pngquant ..."
 echo "=> => Optimizing ..."
 echo
 
-cd assets
+cd public/projects
 
 pngquant -f --skip-if-larger --ext .png --speed 1 *.png
