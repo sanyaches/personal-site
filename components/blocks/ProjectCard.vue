@@ -7,7 +7,7 @@
           <img :alt="project.description" :src="project.thumbnailUrl">
         </span>
       </div>
-      <blockquote class="project-card__quote">
+      <blockquote v-if="project.authorQuote" class="project-card__quote">
         <div class="project-card__quote-inner">
           <div class="project-card__quote-person">
             <AvatarPerson />

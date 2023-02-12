@@ -21,7 +21,7 @@
                   {{ project.description }}
                 </p>
               </div>
-              <div class="project__meta">
+              <div v-if="project.authorQuote" class="project__meta">
                 <div class="project__meta-scroller">
                   <div class="project__meta-inner">
                     <div class="project__meta-people-wrap">

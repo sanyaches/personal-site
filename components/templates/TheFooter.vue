@@ -23,6 +23,10 @@
             </li>
 
             <li class="lh-condensed mb-1rem">
+              <NuxtLink class="link" to="/projects/law-documents">Law documents builder</NuxtLink>
+            </li>
+
+            <li class="lh-condensed mb-1rem">
               <NuxtLink class="link" to="/projects">All projects</NuxtLink>
             </li>
           </ul>
