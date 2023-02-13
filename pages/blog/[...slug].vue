@@ -263,7 +263,7 @@ const topicLink = computed(() => {
 
   &__header-heading {
     font-size: 3.3125rem;
-    line-height: 2.25rem;
+    line-height: 2.75rem;
     font-variation-settings: "wght" 669;
     letter-spacing: -0.0307em;
     font-weight: 700;

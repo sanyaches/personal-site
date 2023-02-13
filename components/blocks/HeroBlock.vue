@@ -12,17 +12,17 @@
           </p>
           <p>
             I'm passionate about web development with care about customers (UX/UI). 
-            <br>Also I'm a fan of clean code
+            <br>Also I'm a fan of clean code and clear system design
           </p>
           <p>Feel free to reach me by links below:</p>
           <div class="mb-4">
             <BlocksSocials />
           </div>
           <p>
-            Scilled in JavaScript, Typescript, HTML, CSS, Vue.js, React.js and Node.js
+            Scilled in JavaScript, Typescript, HTML, CSS, Vue.js, Nuxt.js, React.js and Node.js
           </p>
           <p>
-            4 years of experience
+            4+ years of experience
           </p>
           <p class="mt-2rem md:mt-3rem">
             <b>Navigation:</b>
