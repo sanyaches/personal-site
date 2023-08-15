@@ -21,7 +21,7 @@
 </template>
 
 <script setup>
-import LinkedinIcon from '@/assets/icons/social-linkedin.svg?component'
+import LinkedinIcon from '@/assets/icons/linkedin.svg?component'
 import TelegramIcon from '@/assets/icons/telegram.svg?component'
 import GithubIcon from '@/assets/icons/github.svg?component'
 </script>

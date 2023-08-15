@@ -29,7 +29,7 @@
               <p>
                 I've been interested in Web development for the first time in 2017. At that moment I was a 3d year student on Computer Security Master course at my hometown's university - Orenburg State University.
               </p>
-              <p>I'd already have 4 years of some amateur programming experience using various languages: C++/C#, Python. I'd been writing some algorithms for my studying.</p>
+              <p>I'd already have 5 years of some amateur programming experience using various languages: C++/C#, Python. I'd been writing some algorithms for my studying.</p>
             </div>
           </div>
           <div class="story-section">
@@ -73,8 +73,18 @@
               <img src="~/assets/images/about/06-europe.png" alt="Europe" loading="lazy">
             </div>
             <div class="story-section__text">
-              <p>I've always wanted to relocate to Europe. And I found a great opportunity to work for German startup to know European culture better and their values.</p>
+              <p><b>Chapter 1</b> - I've always wanted to relocate to Europe. And I found a great opportunity to work for German startup to know European culture better and their values.</p>
               <p>I also traveled to Europe, it was above all my expectations I was shocked by a high level of life.</p>
+            </div>
+          </div>
+          <div class="story-section">
+            <div class="story-section__image">
+              <img src="~/assets/images/about/06-europe.png" alt="Europe" loading="lazy">
+            </div>
+            <div class="story-section__text">
+              <p><b>Chapter 2</b> - After spending so much time and no less forces, I successfully relocated to Spain as a digital nomad with my family, now we live at house in golf club community</p>
+              <p>We're getting a residence, learning Spanish and integrating into society</p>
+              <p>I'm going to travel across Europe, meet new people, participate in tech meetups</p>
             </div>
           </div>
           <div class="story-section">

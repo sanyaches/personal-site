@@ -112,7 +112,7 @@ import { useSeoMeta } from '@unhead/vue';
 import { format } from 'date-fns'
 import TwitterIcon from '@/assets/icons/social-twitter.svg?component'
 import FacebookIcon from '@/assets/icons/social-facebook.svg?component'
-import LinkedinIcon from '@/assets/icons/social-linkedin.svg?component'
+import LinkedinIcon from '@/assets/icons/linkedin.svg?component'
 
 definePageMeta({
   colorMode: 'light',

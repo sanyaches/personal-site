@@ -22,7 +22,7 @@
             Scilled in JavaScript, Typescript, HTML, CSS, Vue.js, Nuxt.js, React.js and Node.js
           </p>
           <p>
-            4+ years of experience
+            5 years of experience
           </p>
           <p class="mt-2rem md:mt-3rem">
             <b>Navigation:</b>
